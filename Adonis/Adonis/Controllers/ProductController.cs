@@ -35,7 +35,7 @@ namespace Adonis.Controllers
         public async Task<IActionResult> GetAll()
         {
             var products = await _productService.GetAllProduct();
-
+            //aaaa
             return Ok(products);
         }
 
